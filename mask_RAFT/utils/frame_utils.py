@@ -11,11 +11,6 @@ TAG_CHAR = np.array([202021.25], np.float32)
 
 def readFlow(fn):
     """ Read .flo file in Middlebury format"""
-    # Code adapted from:
-    # http://stackoverflow.com/questions/28013200/reading-middlebury-flow-files-with-python-bytes-array-numpy
-
-    # WARNING: this will work on little-endian architectures (eg Intel x86) only!
-    # print 'fn = %s'%(fn)
     with open(fn, 'rb') as f:
         magic = np.fromfile(f, np.float32, count=1)
         if 202021.25 != magic:

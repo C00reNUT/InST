@@ -1,34 +1,7 @@
-# Flow visualization code used from https://github.com/tomrunia/OpticalFlow_Visualization
-
-
-# MIT License
-#
-# Copyright (c) 2018 Tom Runia
-#
-# Permission is hereby granted, free of charge, to any person obtaining a copy
-# of this software and associated documentation files (the "Software"), to deal
-# in the Software without restriction, including without limitation the rights
-# to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-# copies of the Software, and to permit persons to whom the Software is
-# furnished to do so, subject to conditions.
-#
-# Author: Tom Runia
-# Date Created: 2018-08-03
 
 import numpy as np
 
 def make_colorwheel():
-    """
-    Generates a color wheel for optical flow visualization as presented in:
-        Baker et al. "A Database and Evaluation Methodology for Optical Flow" (ICCV, 2007)
-        URL: http://vision.middlebury.edu/flow/flowEval-iccv07.pdf
-
-    Code follows the original C++ source code of Daniel Scharstein.
-    Code follows the the Matlab source code of Deqing Sun.
-
-    Returns:
-        np.ndarray: Color wheel
-    """
 
     RY = 15
     YG = 6
