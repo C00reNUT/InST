@@ -18,10 +18,6 @@ def umeyama(src, dst, estimate_scale):
    T : (N + 1, N + 1)
        The homogeneous similarity transformation matrix. The matrix contains
        NaN values only if the problem is not well-conditioned.
-   References
-   ----------
-   .. [1] "Least-squares estimation of transformation parameters between two
-           point patterns", Shinji Umeyama, PAMI 1991, DOI: 10.1109/34.88573
    """
    num = src.shape[0]
    dim = src.shape[1]
