@@ -41,7 +41,7 @@ def get_args():
     parser.add_argument('--num_worker',type=int,default=8)
 
     # model options
-    parser.add_argument('--model_type',type=str,default='raft',choices=['raft'],help='module of warpping')
+    parser.add_argument('--model_type',type=str,default='mask_raft',choices=['mask_raft'],help='module of warpping')
     parser.add_argument('--checkpoint',type=str,required=True,help='module of warpping')
     parser.add_argument('--refine_time',type=int,default=3,help='warp refine time')
 
@@ -116,7 +116,7 @@ def test(args):
 
     # Model
     logger.info(f'Using {args.model_type} for Testing')
-    if args.model_type == 'raft':
+    if args.model_type == 'mask_raft':
         model = mask_RAFT().to(device)
 
     checkpoint = torch.load(args.checkpoint)
@@ -192,18 +192,18 @@ def test(args):
             if args.make_grid:
                 row.append(warped_source.cpu())
             else:
-                save_image_name = f'{args.model_type}_' + source_mask_path.name.split('.')[0] + '_shaped_' + target_mask_path.name.split('.')[0] + f'_refine{args.refine_time}.jpg'   
+                save_image_name = source_mask_path.name.split('.')[0] + '_shaped_' + target_mask_path.name.split('.')[0] + f'_refine{args.refine_time}.jpg'   
                 save_image(torch.cat([source_mask,target_mask] + warped_source_mask_list + warped_source_list + warped_checkerboard_list + optical_flow_list,dim=0).cpu(),
                                 str(Path(output_dir,save_image_name)),scale_each=True,nrow=2+args.refine_time,padding=4,pad_value=255)  
                 if extra_flag:
-                    single_image_name = f'single_{args.model_type}_' + source_mask_path.name.split('.')[0] + '_shaped_' + target_mask_path.name.split('.')[0] + f'_refine{args.refine_time}.jpg'   
+                    single_image_name = f'single_' + source_mask_path.name.split('.')[0] + '_shaped_' + target_mask_path.name.split('.')[0] + f'_refine{args.refine_time}.jpg'   
                     save_image(warped_source_list[-1].cpu(),str(Path(output_dir,single_image_name)),scale_each=True,nrow=1,padding=4,pad_value=255)
 
         if args.make_grid:
             concat_list.append(torch.cat(row,dim=0))
     if args.make_grid:
         concat = torch.cat(concat_list,dim=0)
-        save_image(concat,Path(output_dir,'result.jpg'),scale_each=True,nrow=len(target_mask_paths)+1,padding=4,pad_value=255)
+        save_image(concat,Path(output_dir,'grid_result.jpg'),scale_each=True,nrow=len(target_mask_paths)+1,padding=4,pad_value=255)
 
 
 if __name__ == '__main__':
