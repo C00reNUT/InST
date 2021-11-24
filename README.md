@@ -1,5 +1,5 @@
-# InST
-**Industrial Style Transfer with Large-scale Geometric Shape**
+# InST: Industrial Style Transfer with Large-scale Geometric Warping and Content Preservation
+<!-- **Industrial Style Transfer with Large-scale Geometric Shape** -->
 
 <p align='center'>
  <img alt='First Row' src='figs/first.jpg'>
