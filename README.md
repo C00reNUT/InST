@@ -11,7 +11,7 @@
  <img alt='Large-scale Warping Examples' src='figs/warp.jpg'>
 </p>
 
-### Texture Style Transfer
+### Texture Style Transfer with Content Preservation
 <p align='center'>
  <img alt='Texture Transfer Examples' src='figs/texture.jpg'>
 </p>
@@ -25,5 +25,5 @@
 </p>
 
 ## References
-[1] Xiao-Chang  Liu,  Yong-Liang  Yang,  and  Peter  Hall. Learning to warp for style transfer.   In CVPR, pages 3702–3711, 2021  
+[1] Xiao-Chang  Liu,  Yong-Liang  Yang,  and  Peter  Hall.  Learning to warp for style transfer.   In CVPR, pages 3702–3711, 2021  
 [2] Sunnie S. Y. Kim, Nicholas I. Kolkin, Jason Salavon,and Gregory Shakhnarovich.  Deformable style trans-fer.   In ECCV, pages 246–261,  2020. 
