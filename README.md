@@ -9,7 +9,7 @@
 ### Large-scale Geometric Warping
 <p align='center'>
  <img alt='Large-scale Warping Examples' src='figs/warp.jpg'>
-<br>Warping results using the geometric style transfer methods, e.g., <a href='#GTST'>GTST</a>, <a href='#DST'>DST</a> and our InS
+<br>Warping results using the geometric style transfer methods, e.g., <a href='#GTST'>GTST</a>, <a href='#DST'>DST</a> and our InS [123](#GTST)
 </p>
 
 ### Texture Style Transfer with Content Preservation
