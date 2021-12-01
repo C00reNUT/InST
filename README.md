@@ -9,23 +9,23 @@
 ### Large-scale Geometric Warping
 <p align='center'>
  <img alt='Large-scale Warping Examples' src='figs/warp.jpg'>
-Warping results using the geometric style transfer methods, e.g., <a href='#GTST'>GTST</a>, <a href='#DST'>DST</a> and our InS
+<br>Warping results using the geometric style transfer methods, e.g., <a href='#GTST'>GTST</a>, <a href='#DST'>DST</a> and our InS
 </p>
 
 ### Texture Style Transfer with Content Preservation
 <p align='center'>
  <img alt='Texture Transfer Examples' src='figs/texture.jpg'>
-Content preservation results using the texture style transfer methods, e.g., <a href='#Adain'>AdaIN</a>, <a href='#LinearWCT'>LinearWCT</a> and <a href='#Artflow'>ArtFlow</a> 
+<br>Content preservation results using the texture style transfer methods, e.g., <a href='#Adain'>AdaIN</a>, <a href='#LinearWCT'>LinearWCT</a> and <a href='#Artflow'>ArtFlow</a> 
 </p>
 
 ### Geometry&Texture
 <p align='center'>
  <img alt='Shape and Texture Transfer Examples' src='figs/warp_texture.jpg'>
- Visual logo design results using the geometric and texture style transfer methods, e.g., <a href='#GTST'>GTST</a> and our InS
+ <br>Visual logo design results using the geometric and texture style transfer methods, e.g., <a href='#GTST'>GTST</a> and our InS
 </p>
 <p align='center'>
  <img alt='Shape and Texture Transfer Examples_2' src='figs/warp_texture2.jpg'>
- Visual product design results using the geometric and texture style transfer methods, e.g., <a href='#GTST'>GTST</a> and our InS
+ <br>Visual product design results using the geometric and texture style transfer methods, e.g., <a href='#GTST'>GTST</a> and our InS
 </p>
 
 ## References
