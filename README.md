@@ -29,8 +29,8 @@
 </p>
 
 ## References
-<span id="GTST">[1] Xiaochang Liu, Yongliang  Yang, and Peter Hall. Learning to warp for style transfer. In CVPR, pages 3702–3711, 2021  </span>
-<span id="DST">[2] Sunnie S. Y. Kim, Nicholas I. Kolkin, Jason Salavon, and Gregory Shakhnarovich. Deformable style transfer. In ECCV, pages 246–261, 2020  </span>
-<span id="Adain">[3] Xun Huang and Serge J Belongie. Arbitrary style transfer in real-time with adaptive instance normalization. In ICCV, pages 1501–1510, 2017  </span>
-<span id="LinearWCT">[4] Xueting  Li,  Sifei  Liu,  Jan  Kautz,  and  Minghsuan Yang.   Learning linear transformations for fast arbitrary style transfer. In CVPR, pages 3809–3817, 2019  </span>
+<span id="GTST">[1] Xiaochang Liu, Yongliang  Yang, and Peter Hall. Learning to warp for style transfer. In CVPR, pages 3702–3711, 2021  </span>  
+<span id="DST">[2] Sunnie S. Y. Kim, Nicholas I. Kolkin, Jason Salavon, and Gregory Shakhnarovich. Deformable style transfer. In ECCV, pages 246–261, 2020  </span>  
+<span id="Adain">[3] Xun Huang and Serge J Belongie. Arbitrary style transfer in real-time with adaptive instance normalization. In ICCV, pages 1501–1510, 2017  </span>  
+<span id="LinearWCT">[4] Xueting  Li,  Sifei  Liu,  Jan  Kautz,  and  Minghsuan Yang.   Learning linear transformations for fast arbitrary style transfer. In CVPR, pages 3809–3817, 2019  </span>  
 <span id="Artflow">[5] Jie An,  Siyu Huang,  Yibing Song,  Dejing Dou,  Wei Liu,  and Jiebo Luo.   Artflow:  Unbiased image style transfer via reversible neural flows.  In CVPR, pages 862–871, 2021</span>
